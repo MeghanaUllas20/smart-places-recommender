@@ -1,0 +1,48 @@
+/* FULL PAGE RESET */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+/* LIGHT MODE BACKGROUND */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f5f7fb;
+}
+
+/* FULL-WIDTH APP LAYOUT */
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 30px 60px; /* horizontal spacing */
+  box-sizing: border-box;
+}
+
+/* TITLE (no more center card look) */
+.title {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+/* SUBTITLE */
+.subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* 🌙 DARK MODE */
+.dark {
+  background: #0f172a;
+  color: #f1f5f9;
+  min-height: 100vh;
+}
+
+.dark .subtitle {
+  color: #cbd5f5;
+}
+
+.dark h3 {
+  color: #e2e8f0;
+}
