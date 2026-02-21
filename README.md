@@ -8,9 +8,7 @@ Built with a strong focus on **real-world UX, clean UI, and production-ready fro
 
 ## 🚀 Live Demo
 
-👉 Add your deployed link here after deployment
-Example:
-https://smart-places-recommender.vercel.app
+👉 https://smart-places-recommender-123.vercel.app/
 
 ---
 
@@ -20,11 +18,27 @@ https://smart-places-recommender.vercel.app
 * 🎯 Mood-based recommendations (Work, Date, Quick Bite, Budget)
 * 🌐 Live Places API integration (Geoapify)
 * 📏 Distance calculation using geo math
-* ⭐ Smart ratings display (when available)
+* ⭐ Dynamic ratings display (when available)
 * ❤️ Favorites system with toggle support
 * 🌙 Dark mode support
 * ⚡ Fast Vite + React architecture
-* 📱 Clean responsive UI
+* 📱 Clean modern UI
+
+---
+
+## 📸 Screenshots
+
+### 🌞 Light Mode
+
+![Light Mode](images/light_mode.png)
+
+### 🌙 Dark Mode
+
+![Dark Mode](images/dark_mode.png)
+
+### ❤️ Favorites Feature
+
+![Favorites](images/favorite_section.png)
 
 ---
 
@@ -34,25 +48,25 @@ People often struggle to quickly find suitable nearby places based on context (w
 This app simplifies discovery using:
 
 * Mood-driven filtering
-* Real-time location
-* Intelligent UI feedback
+* Real-time location awareness
+* Smart and minimal UI
 
 ---
 
 ## 🛠 Tech Stack
 
-**Frontend**
+### Frontend
 
 * React (Vite)
 * JavaScript (ES6+)
 * CSS3
 
-**APIs**
+### APIs
 
 * Geoapify Places API
 * Browser Geolocation API
 
-**Tools**
+### Tools
 
 * VS Code
 * GitHub
@@ -60,29 +74,19 @@ This app simplifies discovery using:
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots after deployment
-
-* Light mode UI
-* Dark mode UI
-* Favorites feature
-
----
-
 ## ⚙️ Installation (Run Locally)
 
 ```bash
 # Clone repo
-git clone https://github.com/YOUR_USERNAME/smart-places-recommender.git
+git clone https://github.com/MeghanaUllas20/smart-places-recommender.git
 
-# Go inside folder
+# Go inside project
 cd smart-places-recommender
 
 # Install dependencies
 npm install
 
-# Start dev server
+# Run development server
 npm run dev
 ```
 
@@ -115,43 +119,42 @@ src/
  ├── styles/
  │   └── app.css
  └── App.jsx
+
+images/
+ ├── light-mode.png
+ ├── dark-mode.png
+ └── favorites.png
 ```
 
 ---
 
 ## 🎯 Key Highlights
 
-* Built from scratch without UI frameworks
-* Handles loading, empty states, and API errors
+* Built completely from scratch without UI frameworks
+* Handles loading, empty states, and API responses
 * Clean component-based architecture
-* Beginner-friendly yet production-minded
+* Beginner-friendly yet production-minded design
 
 ---
 
-## 💡 Future Improvements
+## 🚀 Future Improvements
 
-* 📱 Mobile responsiveness
-* 🗺 Map view integration
+* 📱 Fully responsive mobile layout
+* 🗺 Map-based results view
 * 💾 Persistent favorites (localStorage)
-* 🔍 Search and filters
-* 🧭 Multi-city recommendations
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome!
-Feel free to fork and improve the project.
+* 🔍 Search and advanced filters
+* 🌎 Multi-city recommendations
 
 ---
 
 ## 👩‍💻 Author
 
 **Meghana U**
+
 GitHub: https://github.com/MeghanaUllas20
 
 ---
 
-## ⭐ If you like this project
+## ⭐ Support
 
-Give it a ⭐ on GitHub — it helps a lot!
+If you like this project, consider giving it a ⭐ on GitHub — it helps a lot!
